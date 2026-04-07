@@ -7,10 +7,7 @@ view: aircraft {
     sql: rtrim(${TABLE}.tail_num) ;;
   }
 
-  dimension: address1 {
-    type: string
-    sql: ${TABLE}.address1 ;;
-  }
+
 
   dimension: address2 {
     type: string
